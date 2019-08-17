@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body{
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap;
+        background-color: #333;
+        justify-content: center;
+        overflow-x: hidden;
+      }
+      .canvas-container{
+        border: solid 1px #666;
+        padding: 10px;
+        margin: 15px;
+        display: block;
+        background-color: #fff;
+        box-shadow: 0 0 1em #444;
+        border-radius: 0.5em;
+      }
+      .canvas-container *{
+        display: block;
+        margin: 0.5em;
+      }
+
+      .canvas-container .title{
+        background-color: darkcyan;
+        color: #fff;
+        padding: 1em;
+      }
+
+      .canvas-container canvas{
+        box-shadow: 1px 1px 5px #999;
+      }
+
+      .canvas-container .download{
+        font-weight: 800;
+        color: #333;        
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./script.js"></script>
+  </body>
+</html>
